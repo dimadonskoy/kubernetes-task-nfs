@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #######################################################################
 # Developed by : Dmitri Donskoy
-# Purpose : Create Kubernetes services
+# Purpose : Create Kubernetes resources
 # Date : 22.07.2025
 # Version : 0.0.2
 # set -x
