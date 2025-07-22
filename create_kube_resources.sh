@@ -3,7 +3,7 @@
 # Developed by : Dmitri Donskoy
 # Purpose : Create Kubernetes resources
 # Date : 22.07.2025
-# Version : 0.0.2
+# Version : 0.0.1
 # set -x
 set -o errexit
 set -o nounset
