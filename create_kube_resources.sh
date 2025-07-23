@@ -12,12 +12,8 @@ set -o pipefail
 
 NAMESPACE="webapp"
 
-### Create namespace if not exists ###
-if ! kubectl get ns "$NAMESPACE" &> /dev/null; then
-    kubectl create ns "$NAMESPACE"
-else
-    echo "Namespace $NAMESPACE already exists."
-fi
+### Create namespace  ###
+kubectl create ns "$NAMESPACE"
 
 ### Apply PV ###
 kubectl apply -f files/webapp_pv.yaml
