@@ -56,7 +56,7 @@ This will:
 The NGINX service is exposed on NodePort `31234`. You can access it at:
 
 ```
-http://192.168.55.240:31234/ or test with - curl localhost:31234
+http://192.168.55.240:31234/ in web browser or test with - curl 192.168.55.240:31234
 ```
 
 Author:
