@@ -1,17 +1,13 @@
-  
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png" alt="Kubernetes" height="60" style="margin-right:20px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/NGINX_logo.svg" alt="NGINX" height="60" style="margin-right:20px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Network_File_System_logo.png" alt="NFS Server" height="60">
-</p>
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png" alt="Kubernetes" height="60">
+</p>
 
 This project provides scripts and Kubernetes manifests to deploy an NGINX-based web application on a K3s or compatible Kubernetes cluster, using an NFS share for persistent storage.
 
 ## Project Structure
 
 ```
-
 ├── create_kube_services.sh
 ├── files
 │   ├── webapp_configmap.yaml
@@ -21,7 +17,6 @@ This project provides scripts and Kubernetes manifests to deploy an NGINX-based 
 │   └── webapp_service.yaml
 ├── install_nfs.sh
 └── README.md
-
 ```
 
 ## Prerequisites
@@ -69,7 +64,7 @@ Author:
 - Dmitri Donskoy
 - Email: crooper22@gmail.com
 
-
 ## License
 
 MIT License
+
