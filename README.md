@@ -4,14 +4,15 @@ This project provides scripts and Kubernetes manifests to deploy an NGINX-based 
 
 ## Project Structure
 
-- [`install_nfs.sh`](install_nfs.sh): Installs and configures an NFS server, exports `/tmp/share1` for use as a PersistentVolume.
-- [`create_kube_services.sh`](create_kube_services.sh): Creates the Kubernetes namespace and applies all resources in the correct order.
-- YAML manifests (in the [`files/`](files/) directory):
-    - [`webapp_pv.yaml`](files/webapp_pv.yaml): Defines a PV backed by the NFS share.
-    - [`webapp_pvc.yaml`](files/webapp_pvc.yaml): Defines a PVC for the webapp.
-    - [`webapp_configmap.yaml`](files/webapp_configmap.yaml): Provides a custom NGINX configuration.
-    - [`webapp_deployment.yaml`](files/webapp_deployment.yaml): Deploys an NGINX pod (3 replicas) with the NFS volume mounted.
-    - [`webapp_service.yaml`](files/webapp_service.yaml): Exposes the NGINX deployment via a NodePort service.
+├── create_kube_resources.sh
+├── files
+│   ├── webapp_configmap.yaml
+│   ├── webapp_deployment.yaml
+│   ├── webapp_pv.yaml
+│   ├── webapp_pvc.yaml
+│   └── webapp_service.yaml
+├── install_nfs.sh
+└── README.md
 
 ## Prerequisites
 
