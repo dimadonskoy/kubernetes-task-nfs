@@ -1,4 +1,10 @@
-# K3s/K8s NFS-backed webapp deployment
+  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png" alt="Kubernetes" height="60" style="margin-right:20px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/NGINX_logo.svg" alt="NGINX" height="60" style="margin-right:20px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Network_File_System_logo.png" alt="NFS Server" height="60">
+</p>
+
 
 This project provides scripts and Kubernetes manifests to deploy an NGINX-based web application on a K3s or compatible Kubernetes cluster, using an NFS share for persistent storage.
 
