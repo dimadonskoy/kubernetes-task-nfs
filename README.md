@@ -4,6 +4,8 @@ This project provides scripts and Kubernetes manifests to deploy an NGINX-based 
 
 ## Project Structure
 
+```
+
 ├── create_kube_services.sh
 ├── files
 │   ├── webapp_configmap.yaml
@@ -13,6 +15,8 @@ This project provides scripts and Kubernetes manifests to deploy an NGINX-based 
 │   └── webapp_service.yaml
 ├── install_nfs.sh
 └── README.md
+
+```
 
 ## Prerequisites
 
